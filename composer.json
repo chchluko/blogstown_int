@@ -12,9 +12,11 @@
         "barryvdh/laravel-dompdf": "0.8.7",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.18.35",
-        "laravel/tinker": "^2.0"
+        "laravel/tinker": "^2.0",
+        "tymon/jwt-auth": "dev-develop"
     },
     "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.8",
         "facade/ignition": "^1.4",
         "fzaninotto/faker": "^1.9.1",
         "laravel/ui": "^1.0",
