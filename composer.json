@@ -11,6 +11,7 @@
         "php": "^7.2",
         "barryvdh/laravel-dompdf": "0.8.7",
         "fideloper/proxy": "^4.0",
+        "jeroennoten/laravel-adminlte": "^3.5",
         "laravel/framework": "^6.18.35",
         "laravel/tinker": "^2.0",
         "tymon/jwt-auth": "dev-develop"

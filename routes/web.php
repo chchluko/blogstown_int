@@ -25,3 +25,14 @@ Route::put('/tareas/actualizar', 'TaskController@update');
 Route::post('/tareas/guardar', 'TaskController@store');
 Route::delete('/tareas/borrar/{id}', 'TaskController@destroy');
 Route::get('/tareas/buscar', 'TaskController@show');
+
+
+Route::get('adminlte/', function () {
+    return view('adminlte');
+});
+
+Auth::routes();
+
+Route::get('/home', function() {
+    return view('home');
+})->name('home')->middleware('auth');
