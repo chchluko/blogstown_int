@@ -36,3 +36,7 @@ Auth::routes();
 Route::get('/home', function() {
     return view('home');
 })->name('home')->middleware('auth');
+
+
+Route::get('notes', 'NotesController@index');
+Route::get('notes/{id}/destroy', 'NotesController@destroy')->name('notes.destroy');
