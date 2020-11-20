@@ -40,3 +40,5 @@ Route::get('/home', function() {
 
 Route::get('notes', 'NotesController@index');
 Route::get('notes/{id}/destroy', 'NotesController@destroy')->name('notes.destroy');
+
+
